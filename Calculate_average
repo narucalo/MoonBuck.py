@@ -1,0 +1,18 @@
+# Pseudocode
+# collaborator: none
+# prompt test score 1
+# prompt test score 2
+# prompt test score 3
+# calculate average score by adding total score divide by 3
+# print avg
+
+def main():
+    score1 = int(input('Enter score 1: '))
+    score2 = int(input('Enter score 2: '))
+    score3 = int(input('Enter score 3: '))
+    total = score1 + score2 + score3
+    avg = total / 3
+
+    print('Your final average is: ', f'{avg:,.2f}%')
+
+main()
