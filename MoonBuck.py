@@ -1,0 +1,38 @@
+#Calvin Nguyen COP1000
+#psuedocode
+#assign sale tax to the correct syntax
+#assign shipping cost function
+#prompt user for the quantity
+#assign weight 40 or more, multiply 7.50 assign to cost
+#assign weight 20 or more, multiply 8.75 assign to cost
+#assign weight 10 or more, multiply 10.00 assign to cost
+#assign the correct operator for each funtions
+#Quantity add sale tax equal total price
+#if quanity under the assign value add shipping cost
+#print for total
+
+def main():
+    #prompt for pounds from user
+    lb = (int(input('How many pounds of coffee: ')))
+    SALE_TAX = 0.07
+      
+
+    #determin price for coffee
+    if lb >=40:
+        cost = lb * 7.50
+    elif lb >= 20:
+        cost = lb * 8.75
+    elif lb >= 10:
+        cost = lb * 10.00
+    else:
+        cost = lb * 12.00
+    
+    #determin shipping charge
+    if cost > 150:
+        shipping = 0
+    else:
+        shipping = lb
+
+    #calculate sale tax and total
+    sale_tax = cost * 0.07
+    total = cost + sale_tax + shipping
