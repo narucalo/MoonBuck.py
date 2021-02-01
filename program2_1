@@ -1,0 +1,14 @@
+#pseudocode
+#collaborators: none
+#assign number 5 to 'radius'
+#assign 3.1416 to 'pie'
+#multiply 'pie' and 'radius' to get 'area_of_circle' of circle
+#print area of circle.
+
+def main():
+    radius = 2.0
+    PI = 3.1416
+    area_of_a_circle = PI * radius * radius
+    print(f'the area of the cirlcle is {area_of_a_circle: .4f}')
+
+main()
