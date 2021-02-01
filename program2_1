@@ -1,7 +1,7 @@
 #pseudocode
 #collaborators: none
 #assign number 5 to 'radius'
-#assign 3.1416 to 'pie'
+#assign 3.1416 to 'PI'
 #multiply 'pie' and 'radius' to get 'area_of_circle' of circle
 #print area of circle.
 
