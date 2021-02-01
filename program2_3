@@ -1,0 +1,14 @@
+#pseudocode
+#collaborators: none
+#prompt for hour rate
+#prompt for hour work
+#calculate using hour rate multiply hour work
+#print weekly pay
+
+def main():
+    hour_rate = float(input('Enter hour_rate:$ '))
+    hour_work = int(input('Enter hour_work: '))
+    weekly_pay = hour_rate * hour_work
+    print(f'this week pay is ${weekly_pay:,.2f}')
+
+main()
