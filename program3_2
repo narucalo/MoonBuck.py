@@ -1,0 +1,18 @@
+#pseudocode
+#promt for an even number in the twenties
+#assign condition statement for even number with result good input
+#assign condition statemnet for odd number with result bad input
+#print to start
+
+
+def main():
+
+    #prompt for numbers input
+    num =int(input('Enter an even number in the twenties: '))
+    #the condition statement is assign
+    if num % 2 == 1:
+        print('good input')
+    else:
+        print('bad input')
+
+main()
