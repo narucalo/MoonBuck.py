@@ -1,0 +1,40 @@
+#Calvin Nguyen 2229478
+#pseudocode
+#prompt for input and assign to question1 variable
+#assign condition statement with the answer return if the input is wrong
+#prompt for input and assign to question2 variable
+#assign condition statment with the answer return if the input is wrong
+#the formula for finding % increase is percentage increase = finalvalue - starting value multiply 100
+#prompt for input and assign to question3 variable
+#assign condition statement with the answer return if the input is wrong
+
+
+
+
+
+def main():
+    #promt for answer input
+    question1 = int(input('How much is gamestop stock worth as of 2/1/2021?: '))
+    #conditon statement set
+    if question1 == 325:
+        print('true')
+    #return the correct answer
+    else:
+        print('the answer is 325')
+
+
+    question2 = float(input('How many % did gamestop stock soar from $17 to $325: '))
+    if question2 == 1811.76:
+        print('true')
+    else:
+        print('''it's %1811.76''')
+
+    question3 = input('why did gamestop stock sores from $17 to $325?: ')
+    if question3 == 'reddit':
+        print('true')
+    else:
+        print('because reddit community join together and beat hedgfund at their own game')
+    
+
+    
+main()
