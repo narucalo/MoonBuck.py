@@ -1,0 +1,18 @@
+#pseudocode
+#Collaborators: none
+#assign constant for each intergers 
+#prompt for intergers (whole number)
+#use division to calculate the remainder.
+#print remainder
+
+def main():
+    number_1 = int(input('Enter small number: '))
+    number_2 = int(input('Enter large number: '))
+
+#basic math function
+    calculate = number_1 / number_2
+    remainder = number_1 % number_2
+    print('the calculate is:', calculate)
+    print(f'the remainder is {remainder: ,.2f}')
+
+main()
