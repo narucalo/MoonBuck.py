@@ -1,0 +1,27 @@
+#pseudocode
+#assign 0.07 to TAX
+#collaborators: none
+#prompt for item
+#prompt for unit price
+#calculate item multiply unitprice equal subtotal
+#calculate subtotal multiply TAX equal sales tax
+#calculate subtotal add tax equal total
+#print total
+
+def main():
+#output would come back error when SALE_TAX_RATE was put at few line down
+    SALE_TAX_RATE = 0.07
+    
+    apple = int(input('Enter how many apples: '))
+    banana = int(input('Enter how many bananas: '))
+    apple_price = float(input('Enter price for apple:$ '))
+    banana_price = float(input('Enter price for banana:$ '))
+    subtotal = apple + banana * apple_price * banana_price
+    total_sales_tax = subtotal * SALE_TAX_RATE
+    total = subtotal + total_sales_tax
+    
+    print(f'subtotal: ${subtotal:,.2f}')
+    print(f'sales tax: ${total_sales_tax:,.2f}')
+    print(f'total:  ${total:,.2f}')
+
+main()
