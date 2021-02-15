@@ -1,0 +1,29 @@
+# Calvin Nguyen COP1100
+# Store constant.
+# Prompt for input.
+# Set up column header and set it to the specific display requirement.
+# Set up equation for to out put the correct converstion.
+# Use f string to align column as specify.
+# Print to start
+
+
+def main():
+
+    KG = 0.453592
+    
+
+    start = int(input('Enter the start for pounds '))
+    stop = int(input('Enter the stop for pounds '))
+    step = int(input('Enter the step for pounds '))
+
+    
+
+    
+    
+
+    print(f'{"pounds":^10}{"kilograms":>12}')
+    for pounds in range(start, stop+1, step):
+         kilo_grams = pounds * KG
+         print(f'{pounds:^10.2f}{kilo_grams:>12.3f}')
+         
+main()
