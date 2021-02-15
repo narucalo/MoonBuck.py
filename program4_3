@@ -1,0 +1,20 @@
+# Calvin Nguyen COP1100
+'''
+Enter the input from the user.
+Make a table of row and column to have a better visual.
+Evaluate project output and calculate range rows property.
+'''
+def main():
+
+    n = int(input('How many rows? '))
+
+    for rows in range(n,0,-1):       #This code shows the number of rows 
+         for col in range(0,rows-0): #This code show the number of column
+             print(col, end='')
+         print()                    
+             
+       
+        
+          
+
+main()
