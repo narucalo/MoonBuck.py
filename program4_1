@@ -1,0 +1,32 @@
+# Calvin Nguyen COP1000
+# psuedocode
+# Promt for user first name and an interger.
+# Using the for loop to print out the number and name on the same line.
+# Using a sentinal to stop the loop.
+# print to start.
+
+def main():
+        name = input('Enter your first name ')
+        number = int(input('Enter a small interger number '))
+        for col in range(number):
+                print(name, end = ' ')
+        print()
+        
+                
+
+       
+
+        
+
+        while number >0: #Assigning a sentical.
+            
+            print(name, end = ' ')
+            number -= 1  #The condition break the loop.
+                
+                
+                    
+        
+      
+
+	
+main()
